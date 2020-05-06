@@ -1,0 +1,27 @@
+body {
+  font-family: 'Roboto', sans-serif !important;
+  scroll-behavior: smooth;
+}
+/* ************************************ */
+/* MAIN NAVBAR SECTION  */
+/* ************************************ */
+.mainNav{
+  height: 100px;
+  background-color: #fff;
+  z-index: 12000;
+}
+.mainNav .navbar-brand,
+.mainNav .navbar-brand:focus,
+.mainNav .navbar-brand:active,
+.mainNav .navbar-brand:hover{
+  color: #EB3F36;
+}
+
+
+/* ************************************ */
+/* MAIN LANDING SECTION  */
+/* ************************************ */
+
+main {
+  padding-top: 20vh;
+}
