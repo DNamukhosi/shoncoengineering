@@ -3,7 +3,7 @@
   height: 100vh !important;
   position: fixed;
   left: 0px;
-  background-color: #000;
+  background-color: #EB3F36;
 }
 
 #sidebarCollapse {
@@ -38,11 +38,11 @@
   left: -350px;
   height: 100vh;
   z-index: 999;
-  background: #000;
+  background: #EB3F36;
   color: #fff;
   transition: all 0.3s;
   overflow-y: scroll;
-  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 3px 3px 10px rgb(235, 63, 54, 0.09);
 }
 
 #sidebar.active {
@@ -54,7 +54,7 @@
   height: 35px;
   line-height: 35px;
   text-align: center;
-  000 background: #000;
+  background: #EB3F36;
   position: absolute;
   top: 48%;
   right: 20px;
