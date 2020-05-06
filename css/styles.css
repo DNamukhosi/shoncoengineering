@@ -2,3 +2,15 @@ body {
   font-family: 'Roboto', sans-serif !important;
   scroll-behavior: smooth;
 }
+/* ************************************ */
+/* MAIN NAVBAR SECTION  */
+/* ************************************ */
+.mainNav{
+  height: 100px;
+  background-color: #fff;
+  z-index: 19000;
+}
+
+main {
+  padding-top: 20vh;
+}
