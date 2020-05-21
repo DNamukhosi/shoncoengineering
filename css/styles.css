@@ -147,7 +147,9 @@ main img#voltagePanel {
 /* ************************************ */
 /* CONTENT SECTION */
 /* ************************************ */
-.content {}
+.content {
+  min-height: 50vh;
+}
 
 .content h2 {
   font-size: 3.6em;
