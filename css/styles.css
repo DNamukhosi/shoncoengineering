@@ -161,7 +161,7 @@ main img#voltagePanel {
 }
 
 @media (max-width: 1350px) {
-  body, main{
+  body, main {
     overflow-x: hidden !important;
   }
 
@@ -178,11 +178,12 @@ main img#voltagePanel {
     background-color: #75201B;
   }
 
+  main .container,
   main.container,
   .content {
     padding-left: 150px;
     min-width: 100vw !important;
-    width: 100vw!important;
+    width: 100vw !important;
     max-width: 100vw !important;
   }
 
@@ -226,6 +227,10 @@ main img#voltagePanel {
     display: none;
   }
 
+  main .container {
+    padding-left: 0px;
+  }
+
   main.company,
   main.contact,
   main.product,
@@ -249,7 +254,7 @@ main img#voltagePanel {
     width: 100vw;
     height: 60px;
     z-index: 12000;
-    background-color: #fff!important;
+    background-color: #fff !important;
   }
 
   .mainNav #logo {
