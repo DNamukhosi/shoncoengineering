@@ -4,6 +4,8 @@
   position: fixed;
   left: 0px;
   background-color: #EB3F36;
+  z-index: 10;
+
 }
 
 #sidebarCollapse {
@@ -167,12 +169,17 @@ a.article:hover {
   right: 0;
 }
 
+@media (max-width: 1350px) {
+  .specialNav {
+    width: 100px!important;
+    padding: 0px !important;
+  }
+}
+
 @media (max-width: 770px) {
   .specialNav {
     width: 50px!important;
-    /* background-color: #000; */
     padding: 0px !important;
-    z-index: 10;
   }
 
   #sidebarCollapse img {

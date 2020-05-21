@@ -28,7 +28,8 @@ body {
 .mainNav {
   height: 100px;
   z-index: 12000;
-  background-image: linear-gradient(to right, #fff 350px, #fff5 350px);
+  background-image: linear-gradient(to right, #fff 350px, #F17F79 350px);
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.09);
 }
 
 .mainNav #logo {
@@ -50,10 +51,12 @@ main {
   background-color: #EB3F36;
   height: 100vh;
 }
-main.company ,
-main.contact ,
-main.product ,
-main.services{
+
+main.company,
+main.contact,
+main.product,
+main.services {
+  padding-top: 20vh;
   background-color: #fff;
 }
 
@@ -69,9 +72,50 @@ main h1 {
 main .borderBtm {
   width: 200px;
   height: 10px;
-  /* background-image: linear-gradient(to right, #EB3F36 50% ,#75201B 50% ); */
   background-color: #dadce055;
   border-radius: 50px;
+}
+
+main.company h1,
+main.contact h1,
+main.product h1,
+main.services h1 {
+  font-family: 'Aleo', serif;
+  font-size: 6 0px;
+  color: #EB3F36;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+
+.company .photoDiv {
+  width: 500px;
+  height: 300px;
+  background-color: #EB3F36;
+}
+
+.company .companyPhoto {
+  width: 400px;
+  height: 250px;
+  position: relative;
+  right: -200px;
+  background-color: #dadce099;
+}
+
+main.company h2 {
+  color: #dadce099;
+  font-size: 8em;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding-left: 50px;
+}
+
+main.company h2 span {
+  margin-left: 1em;
+}
+
+main p {
+  color: #5f6368;
+  letter-spacing: 1px;
 }
 
 /* VOLTAGE SVG */
@@ -100,6 +144,70 @@ main img#voltagePanel {
   left: -30%;
 }
 
+/* ************************************ */
+/* CONTENT SECTION */
+/* ************************************ */
+.content {}
+
+.content h2 {
+  font-size: 3.6em;
+  color: #EB3F36;
+  letter-spacing: 1px;
+}
+
+.content p {
+  color: #5f6368;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 1350px) {
+  body, main{
+    overflow-x: hidden !important;
+  }
+
+  .mainNav {
+    background-image: linear-gradient(to right, #fff 350px, #F17F79 350px);
+  }
+
+  .emptyDiv {
+    width: 250px;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 100px;
+    background-color: #75201B;
+  }
+
+  main.container,
+  .content {
+    padding-left: 150px;
+    min-width: 100vw !important;
+    width: 100vw!important;
+    max-width: 100vw !important;
+  }
+
+  .company .photoDiv {
+    width: 400px;
+    height: 300px;
+    background-color: #EB3F36;
+  }
+
+  .company .companyPhoto {
+    width: 300px;
+    height: 250px;
+    position: relative;
+    right: -200px;
+    background-color: #dadce099;
+  }
+
+  main.company h2 {
+    color: #dadce099;
+    font-size: 6.5em;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+}
+
 @media (max-width: 770px) {
   body {
     overflow-x: hidden !important;
@@ -111,9 +219,23 @@ main img#voltagePanel {
 
   .emptyDivBtm,
   main .borderBtm,
-  /* main #voltage, */
-  main img#voltagePanel {
+  main img#voltagePanel,
+  .photoDiv,
+  .companyPhoto,
+  main.company h2 {
     display: none;
+  }
+
+  main.company,
+  main.contact,
+  main.product,
+  main.services,
+  .content {
+    padding-left: 60px;
+  }
+
+  .content h2 {
+    font-size: 3em;
   }
 
   .emptyDiv {
@@ -124,10 +246,12 @@ main img#voltagePanel {
   }
 
   .mainNav {
+    width: 100vw;
     height: 60px;
     z-index: 12000;
-    background-color: #fff;
+    background-color: #fff!important;
   }
+
   .mainNav #logo {
     height: 45px;
   }
