@@ -52,10 +52,10 @@ main {
   height: 100vh;
 }
 
-main.company,
-main.contact,
-main.product,
-main.services {
+.company,
+.contact,
+.product,
+.services {
   padding-top: 20vh;
   background-color: #fff;
 }
@@ -76,12 +76,12 @@ main .borderBtm {
   border-radius: 50px;
 }
 
-main.company h1,
-main.contact h1,
-main.product h1,
-main.services h1 {
+.company h1,
+.contact h1,
+.product h1,
+.services h1 {
   font-family: 'Aleo', serif;
-  font-size: 6 0px;
+  font-size: 60px;
   color: #EB3F36;
   font-weight: 600;
   letter-spacing: 3px;
@@ -101,7 +101,7 @@ main.services h1 {
   background-color: #dadce099;
 }
 
-main.company h2 {
+.company h2 {
   color: #dadce099;
   font-size: 8em;
   font-weight: 600;
@@ -109,11 +109,15 @@ main.company h2 {
   padding-left: 50px;
 }
 
-main.company h2 span {
+.company h2 span {
   margin-left: 1em;
 }
 
-main p {
+main p,
+.company p,
+.contact p,
+.product p,
+.services p {
   color: #5f6368;
   letter-spacing: 1px;
 }
@@ -162,6 +166,35 @@ main img#voltagePanel {
   letter-spacing: 1px;
 }
 
+/* ************************************ */
+/* CONTACT SECTION */
+/* ************************************ */
+.contact .contactInfo p {
+  line-height: 12px;
+}
+
+.contact .contactInfo p strong {
+  color: #EB3F36;
+}
+
+form input, form textarea {
+  border: 1px solid #000 !important;
+}
+
+form label span {
+  color: #EB3F36;
+}
+
+form .submitBtn {
+  width: 100%;
+  color: #FFF;
+  letter-spacing: 1px;
+  background-color: #EB3F36;
+}
+
+/* ************************************ */
+/* MEDIA QUERIES SECTION */
+/* ************************************ */
 @media (max-width: 1350px) {
   body, main {
     overflow-x: hidden !important;
@@ -181,7 +214,10 @@ main img#voltagePanel {
   }
 
   main .container,
-  main.container,
+  .services.container,
+  .product.container,
+  .company.container,
+  .contact.container,
   .content {
     padding-left: 150px;
     min-width: 100vw !important;
@@ -203,7 +239,7 @@ main img#voltagePanel {
     background-color: #dadce099;
   }
 
-  main.company h2 {
+  .company h2 {
     color: #dadce099;
     font-size: 6.5em;
     font-weight: 600;
@@ -233,10 +269,10 @@ main img#voltagePanel {
     padding-left: 0px;
   }
 
-  main.company,
-  main.contact,
-  main.product,
-  main.services,
+  .company,
+  .contact,
+  .product,
+  .services,
   .content {
     padding-left: 60px;
   }
@@ -279,10 +315,19 @@ main img#voltagePanel {
     display: none;
   }
 
+  .contact h1 {
+    font-size: 40px;
+    margin-left: 10px;
+  }
+
   main #voltage {
     width: 400px;
     position: absolute;
     top: -20vh;
     left: 30%;
+  }
+
+  .contact .contactInfo p {
+    text-align: center !important;
   }
 }
