@@ -214,10 +214,10 @@ form .submitBtn {
   }
 
   main .container,
-  .services.container,
-  .product.container,
-  .company.container,
-  .contact.container,
+  .services,
+  .product,
+  .company,
+  .contact,
   .content {
     padding-left: 150px;
     min-width: 100vw !important;
@@ -261,7 +261,7 @@ form .submitBtn {
   main img#voltagePanel,
   .photoDiv,
   .companyPhoto,
-  main.company h2 {
+  .company h2 {
     display: none;
   }
 
@@ -269,10 +269,10 @@ form .submitBtn {
     padding-left: 0px;
   }
 
+  .services,
+  .product,
   .company,
   .contact,
-  .product,
-  .services,
   .content {
     padding-left: 60px;
   }
@@ -315,7 +315,10 @@ form .submitBtn {
     display: none;
   }
 
-  .contact h1 {
+  .services h1,
+  .product h1,
+  .company h1,
+  .contact h1{
     font-size: 40px;
     margin-left: 10px;
   }
@@ -327,7 +330,16 @@ form .submitBtn {
     left: 30%;
   }
 
-  .contact .contactInfo p {
+  .contact .contactInfo .col-md-6:first-child {
+    border: none !important;
+    margin-bottom: 20px;
+  }
+
+  .contact .contactInfo .col-md-6:nth-child(2) {
+    margin-bottom: 20px;
+  }
+
+  .contact .contactInfo .col-md-6:first-child p {
     text-align: center !important;
   }
 }
