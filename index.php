@@ -141,7 +141,7 @@
       <div class="row">
         <div class="col-md-6">
 
-          <h1>Medium and Low <br> Voltage Solutions</h1>
+          <h1>Medium and Low <br> Voltage Products and Solutions</h1>
           <div class="borderBtm"></div>
           <img src="images/technology.svg" id="voltage">
           <!-- <p class="mt-4">To be the leading Medium Voltage Solutions provider in Africa.</p> -->
