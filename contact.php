@@ -64,19 +64,19 @@
               </ul> -->
             <!-- </li> -->
             <li>
-              <a href="index">Home</a>
+              <a href="index.php">Home</a>
             </li>
 
             <li>
-              <a href="company">Our Company</a>
+              <a href="company.php">Our Company</a>
             </li>
 
             <li>
-              <a href="services">Services</a>
+              <a href="services.php">Services</a>
             </li>
 
             <li>
-              <a href="products">Products</a>
+              <a href="products.php">Products</a>
             </li>
 
             <li>
@@ -107,7 +107,7 @@
   <!-- MAIN NAVBAR -->
 
   <nav class="navbar mainNav fixed-top">
-    <a class="navbar-brand" href="index">
+    <a class="navbar-brand" href="index.php">
       <img src="images/logo.png" alt="logo" id="logo">
     </a>
 

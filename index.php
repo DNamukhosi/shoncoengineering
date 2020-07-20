@@ -68,19 +68,19 @@
             </li>
 
             <li>
-              <a href="company">Our Company</a>
+              <a href="company.php">Our Company</a>
             </li>
 
             <li>
-              <a href="services">Services</a>
+              <a href="services.php">Services</a>
             </li>
 
             <li>
-              <a href="products">Products</a>
+              <a href="products.php">Products</a>
             </li>
 
             <li>
-              <a href="contact">Contact Us</a>
+              <a href="contact.php">Contact Us</a>
             </li>
           </ul>
         </div>
