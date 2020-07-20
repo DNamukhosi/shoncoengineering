@@ -129,8 +129,8 @@
         <div class="row contactInfo">
 
           <div class="col-md-6 border-right text-right pt-2">
-            <p>Ngara Road</p>
-            <p>Nairobi, Kenya</p>
+            <p>45 Africa Reit</p>
+            <p>Karen Road</p>
           </div>
 
           <div class="col-md-6 pt-2">
