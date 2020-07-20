@@ -155,11 +155,11 @@
   </div>
 
 
-  <!-- <div class="container mt-5 content">
+  <div class="container mt-5 content">
     <h2>Our Vision and Mission</h2>
 
     <p class="mt-4">To be the leading Medium Voltage Solutions provider in Africa.</p>
-  </div> -->
+  </div>
 
 
 

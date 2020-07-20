@@ -135,8 +135,8 @@
 
           <div class="col-md-6 pt-2">
 
-            <p><strong>T:</strong> +254 7098765</p>
-            <p><strong>E:</strong> info@shoncoeng@gmail.com</p>
+            <p><strong>T:</strong> +254 703041000</p>
+            <p><strong>E:</strong>shonco@shoncoengineering.com</p>
             <p><strong>W:</strong> www.shoncoengineering.com</p>
 
           </div>
