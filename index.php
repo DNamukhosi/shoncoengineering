@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Shonco Engeering</title>
+  <title>Shonco Engineering</title>
 
   <link href="https://fonts.googleapis.com/css2?family=Aleo&family=Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/bootstrap.css">
@@ -67,19 +67,19 @@
             </li>
 
             <li>
-              <a href="company.php">Our Company</a>
+              <a href="company">Our Company</a>
             </li>
 
             <li>
-              <a href="services.php">Services</a>
+              <a href="services">Services</a>
             </li>
 
             <li>
-              <a href="products.php">Products</a>
+              <a href="products">Products</a>
             </li>
 
             <li>
-              <a href="contact.php">Contact Us</a>
+              <a href="contact">Contact Us</a>
             </li>
           </ul>
         </div>

@@ -64,23 +64,23 @@
               </ul> -->
             <!-- </li> -->
             <li>
-              <a href="index.php">Home</a>
+              <a href="index">Home</a>
             </li>
 
             <li>
-              <a href="company.php">Our Company</a>
+              <a href="company">Our Company</a>
             </li>
 
             <li>
-              <a href="services.php">Services</a>
+              <a href="services">Services</a>
             </li>
 
             <li>
-              <a href="products.php">Products</a>
+              <a href="products">Products</a>
             </li>
 
             <li>
-              <a href="#">Contact Us</a>
+              <a href="contact">Contact Us</a>
             </li>
           </ul>
         </div>
@@ -107,7 +107,7 @@
   <!-- MAIN NAVBAR -->
 
   <nav class="navbar mainNav fixed-top">
-    <a class="navbar-brand" href="index.php">
+    <a class="navbar-brand" href="index">
       <img src="images/logo.png" alt="logo" id="logo">
     </a>
 
