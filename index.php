@@ -4,13 +4,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Company</title>
+  <title>Shonco Engeering</title>
 
   <link href="https://fonts.googleapis.com/css2?family=Aleo&family=Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/style3.css">
-  <link rel="stylesheet" href="css/rellax.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
 
 </head>
@@ -64,23 +63,23 @@
               </ul> -->
             <!-- </li> -->
             <li>
-              <a href="index.html">Home</a>
+              <a href="#">Home</a>
             </li>
 
             <li>
-              <a href="company.html">Our Company</a>
+              <a href="company.php">Our Company</a>
             </li>
 
             <li>
-              <a href="#">Services</a>
+              <a href="services.php">Services</a>
             </li>
 
             <li>
-              <a href="products.html">Products</a>
+              <a href="products.php">Products</a>
             </li>
 
             <li>
-              <a href="contact.html">Contact Us</a>
+              <a href="contact.php">Contact Us</a>
             </li>
           </ul>
         </div>
@@ -115,6 +114,7 @@
 
 
   <!-- MAIN NAVBAR -->
+
   <nav class="navbar mainNav fixed-top">
     <a class="navbar-brand" href="#">
       <img src="images/logo.png" alt="logo" id="logo">
@@ -126,13 +126,41 @@
   </nav>
 
 
-  <div class="container services">
-
-    <h1>SERVICES</h1>
+  <div class="emptyDiv"></div>
 
 
+  <main class="container-fluid">
 
-  </div>
+    <!-- EMPTY DIV FOR THE DARKER RED SHADE -->
+
+
+    <!-- LANDING SECTION CONTENT -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+
+          <h1>Medium and Low <br> Voltage Products and Solutions</h1>
+          <div class="borderBtm"></div>
+          <img src="images/technology.svg" id="voltage">
+          <!-- <p class="mt-4">To be the leading Medium Voltage Solutions provider in Africa.</p> -->
+        </div>
+        <div class="col-md-6">
+
+          <img src="images/control-panel.png" alt="voltage-panel" id="voltagePanel" style="opacity:0.5">
+        </div>
+      </div>
+
+
+
+    </div>
+
+    <!-- <div class="emptyDivBtm"></div> -->
+
+  </main>
+
+
+
 
 
 
@@ -161,6 +189,7 @@
       });
     });
   </script>
+
 </body>
 
 </html>

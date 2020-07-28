@@ -17,12 +17,12 @@ $company =  $_POST["companyName"];
 $phone = $_POST["phone"];
 $comments = $_POST["comments"];
 
-$message = "Name : " . $names . "<br><br>" . "Sender Email : "  . $email . "<br><br>" . "Company name : " . $company . "<br><br>" . "Phone : " . $phone . "<br><br>" . "Comments : " . $comments; 
+$message = "Name : " . $names . "<br><br>" . "Sender Email : "  . $email . "<br><br>" . "Company name : " . $company . "<br><br>" . "Phone : " . $phone . "<br><br>" . "Comments : " . $comments;
 $mail = new PHPMailer(true);                              // Passing `true` enables exceptions
 try {
     //Server settings
     $mail->SMTPDebug = 2;                                 // Enable verbose debug output
-    $mail->isSMTP();                                      // Set mailer to use SMTP
+    $mail->isSMTP();                                                // Set mailer to use SMTP
     $mail->Host = "smtp.gmail.com";                   // Specify main and backup SMTP servers
     $mail->SMTPAuth = true;                               // Enable SMTP authentication
     $mail->Username = $fromemail;              // SMTP username

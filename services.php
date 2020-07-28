@@ -4,15 +4,14 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Company</title>
+  <title>Services</title>
 
   <link href="https://fonts.googleapis.com/css2?family=Aleo&family=Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/style3.css">
-  <link rel="stylesheet" href="css/rellax.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
 
 </head>
 
@@ -65,29 +64,40 @@
               </ul> -->
             <!-- </li> -->
             <li>
-              <a href="index.html">Home</a>
+              <a href="index.php">Home</a>
             </li>
 
             <li>
-              <a href="#">Our Company</a>
+              <a href="company.php">Our Company</a>
             </li>
 
             <li>
-              <a href="services.html">Services</a>
+              <a href="#">Services</a>
             </li>
 
             <li>
-              <a href="products.html">Products</a>
+              <a href="products.php">Products</a>
             </li>
 
             <li>
-              <a href="contact.html">Contact Us</a>
+              <a href="contact.php">Contact Us</a>
             </li>
           </ul>
         </div>
 
       </div>
 
+
+
+      <!--
+      <ul class="list-unstyled CTAs">
+        <li>
+          <a href="https://bootstrapious.com/tutorial/files/sidebar.zip" class="download">Download source</a>
+        </li>
+        <li>
+          <a href="https://bootstrapious.com/p/bootstrap-sidebar" class="article">Back to article</a>
+        </li>
+      </ul> -->
     </nav>
 
 
@@ -105,9 +115,8 @@
 
 
   <!-- MAIN NAVBAR -->
-
   <nav class="navbar mainNav fixed-top">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="index.php">
       <img src="images/logo.png" alt="logo" id="logo">
     </a>
 
@@ -117,57 +126,27 @@
   </nav>
 
 
-  <div class="container company">
+  <div class="container services">
 
-    <h1>Our Story</h1>
+    <h1>SERVICES</h1>
 
-    <div class="row">
+    <p class="mt-3">Shonco Engineering is your ideal Solution Partner who meets Customer Requirements for the continuity of your Transmission and Distribution systems with its Experienced Service Group. <br>We provide service quality with our experts by
+      using our many years of experiences</p>
 
-      <div class="col-md-6">
-        <div class="photoDiv pt-3">
-
-          <div class="companyPhoto"></div>
-
-        </div>
-      </div>
-
-      <div class="col-md-6">
-
-        <h2>providing <br> <span>energy</span></h2>
-
-      </div>
-    </div>
+    <ul>
+      <li> MV Switchgear & HV Disconnector Erection & Supervisor</li>
+      <li> MV Switchgear & HV Disconnector Commissioning, Test & Startup</li>
+      <li> MV Switchgear & HV Disconnector Switching Devices Maintenance, Repair, Retrofit</li>
+      <li> Network Analysis & Training</li>
+      <li> 7/24 Hotline Support</li>
+    </ul>
 
 
-
-    <p class="mt-4">Established in 2010, we are a market leader in the supply of leading brand, electrical equipment and proprietary products for major international projects.
-      We have a global reach supplying customers in Africa and we are experts in the African markets.
-      Our expert team of consultants are on hand to provide you with a cost-effective, comprehensive and bespoke electrical procurement and shipping service. </p>
-    <p>
-      <strong>Many Years of Trading </strong><br>
-      The skills and experience gained over many years mean that we are perfectly positioned to provide expert advice and support to all of our customers.
-      During this time, we have supplied many different industries with a multitude of diverse products and services.
-      We have a proven track record, which speaks for itself and allows you to trust our stability and credibility within the electrical industry.
-    </p>
 
 
 
   </div>
 
-
-  <div class="container mt-5 content">
-    <h2>Our Vision and Values</h2>
-    <div class="row">
-      <div class="col-md-7">
-        <p class="mt-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
-          type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-      </div>
-    </div>
-
-
-
-
-  </div>
 
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

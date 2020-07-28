@@ -59,6 +59,9 @@ main {
   padding-top: 20vh;
   background-color: #fff;
 }
+.company{
+  padding-bottom: 10vh;
+}
 
 main h1 {
   font-family: 'Aleo', serif;
@@ -67,6 +70,10 @@ main h1 {
   font-weight: 600;
   letter-spacing: 3px;
   margin-left: -10px;
+}
+main p{
+  color: #dadce0!important;
+
 }
 
 main .borderBtm {
@@ -122,6 +129,14 @@ main p,
   letter-spacing: 1px;
 }
 
+.services p {
+  font-size: 18px;
+}
+.services ul li{
+  color: #5f6368;
+  letter-spacing: 1px;
+}
+
 /* VOLTAGE SVG */
 main #voltage {
   width: 120px;
@@ -165,6 +180,35 @@ main img#voltagePanel {
   color: #5f6368;
   letter-spacing: 1px;
 }
+.company + .content p {
+  font-size: 2em;
+
+}
+
+/* ************************************ */
+/* PRODUCTS SECTION */
+/* ************************************ */
+
+.product{
+
+}
+.product h2{
+  color: #3c4043;
+  font-weight: 600;
+}
+.product .card {
+  border: none;
+}
+.product .card table thead tr th{
+  border: 1px solid #3c4043;
+  padding: 10px 10px;
+
+}
+.product .card table tbody tr td{
+  border: 1px solid #f1f1f1;
+  padding: 10px 10px;
+}
+
 
 /* ************************************ */
 /* CONTACT SECTION */

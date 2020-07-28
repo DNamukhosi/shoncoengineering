@@ -4,13 +4,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Home</title>
+  <title>Contact</title>
 
   <link href="https://fonts.googleapis.com/css2?family=Aleo&family=Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/style3.css">
-  <link rel="stylesheet" href="css/rellax.css">
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
 
 </head>
@@ -64,23 +64,23 @@
               </ul> -->
             <!-- </li> -->
             <li>
-              <a href="#">Home</a>
+              <a href="index.php">Home</a>
             </li>
 
             <li>
-              <a href="company.html">Our Company</a>
+              <a href="company.php">Our Company</a>
             </li>
 
             <li>
-              <a href="services.html">Services</a>
+              <a href="services.php">Services</a>
             </li>
 
             <li>
-              <a href="products.html">Products</a>
+              <a href="products.php">Products</a>
             </li>
 
             <li>
-              <a href="contact.html">Contact Us</a>
+              <a href="#">Contact Us</a>
             </li>
           </ul>
         </div>
@@ -89,18 +89,8 @@
 
 
 
-      <!--
-      <ul class="list-unstyled CTAs">
-        <li>
-          <a href="https://bootstrapious.com/tutorial/files/sidebar.zip" class="download">Download source</a>
-        </li>
-        <li>
-          <a href="https://bootstrapious.com/p/bootstrap-sidebar" class="article">Back to article</a>
-        </li>
-      </ul> -->
+
     </nav>
-
-
 
     <nav class="navbar specialNav">
 
@@ -117,7 +107,7 @@
   <!-- MAIN NAVBAR -->
 
   <nav class="navbar mainNav fixed-top">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="index.php">
       <img src="images/logo.png" alt="logo" id="logo">
     </a>
 
@@ -127,40 +117,91 @@
   </nav>
 
 
-  <div class="emptyDiv"></div>
+  <div class="container contact mb-5">
 
+    <h1>Contact Us</h1>
 
-  <main class="container-fluid">
+    <p class="my-4 text-center">For more information on any of our products and to place an order or set up <br> an account, please call, email or complete the form below.</p>
 
-    <!-- EMPTY DIV FOR THE DARKER RED SHADE -->
+    <div class="row justify-content-md-center">
+      <div class="col-md-10">
 
+        <div class="row contactInfo">
 
-    <!-- LANDING SECTION CONTENT -->
+          <div class="col-md-6 border-right text-right pt-2">
+            <p>45 Africa Reit</p>
+            <p>Karen Road</p>
+          </div>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
+          <div class="col-md-6 pt-2">
 
-          <h1>Medium and Low <br> Voltage Panels</h1>
-          <div class="borderBtm"></div>
-          <img src="images/technology.svg" id="voltage">
+            <p><strong>T:</strong> +254 703041000</p>
+            <p><strong>E:</strong>shonco@shoncoengineering.com</p>
+            <p><strong>W:</strong> www.shoncoengineering.com</p>
+
+          </div>
         </div>
-        <div class="col-md-6">
 
-          <img src="images/control-panel.png" alt="voltage-panel" id="voltagePanel" style="opacity:0.5">
-        </div>
       </div>
-
-
-
     </div>
 
-    <!-- <div class="emptyDivBtm"></div> -->
-
-  </main>
 
 
+    <div class="row justify-content-md-center">
+      <div class="col-md-6">
+        <form class="needs-validation" id="" action="mail.php" method="post">
 
+          <div class="form-group">
+            <label for="fullName">Full Name <span>*</span> </label>
+            <input type="text" class="form-control" id="fullName" name="fullName" required>
+          </div>
+
+
+          <div class="form-group">
+            <label for="companyName">Company Name <span>*</span> </label>
+            <input type="text" class="form-control" id="companyName" name="companyName" required>
+          </div>
+
+          <div class="row">
+            <div class="col-md-7">
+              <div class="form-group">
+                <label for="email"> Email <span>*</span> </label>
+                <input type="email" class="form-control" id="email" name="email" required>
+              </div>
+            </div>
+            <div class="col-md-5">
+              <div class="form-group">
+                <label for="phone"> Phone Number <span>*</span> </label>
+                <input type="text" class="form-control" id="phone" name="phone" required>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="form-group">
+            <label for="comments">Comments</label>
+            <textarea class="form-control" id="comments" rows="3" name="comments" required></textarea>
+          </div>
+
+
+          <!-- Notifications for 'error' Or 'successfully'-->
+          <div class="mailResponse" style="display:none;">
+            <div class="alert alert-dismissible" role="alert">
+              <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
+              <p class="mailResponseText"></p>
+            </div>
+          </div>
+
+          <button class="btn submitBtn mt-3" type="submit">SUBMIT</button>
+
+
+        </form>
+      </div>
+    </div>
+
+
+
+  </div>
 
 
 
@@ -189,7 +230,6 @@
       });
     });
   </script>
-
 </body>
 
 </html>

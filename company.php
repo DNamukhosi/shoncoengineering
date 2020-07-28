@@ -10,8 +10,9 @@
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/style3.css">
-  <link rel="stylesheet" href="css/rellax.css">
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+
 
 </head>
 
@@ -64,33 +65,32 @@
               </ul> -->
             <!-- </li> -->
             <li>
-              <a href="index.html">Home</a>
+              <a href="index.php">Home</a>
             </li>
 
             <li>
-              <a href="company.html">Our Company</a>
+              <a href="#">Our Company</a>
             </li>
 
             <li>
-              <a href="services.html">Services</a>
+              <a href="services.php">Services</a>
             </li>
 
             <li>
-              <a href="products.html">Products</a>
+              <a href="products.php">Products</a>
             </li>
 
             <li>
-              <a href="#">Contact Us</a>
+              <a href="contact.php">Contact Us</a>
             </li>
           </ul>
         </div>
 
       </div>
 
-
-
-
     </nav>
+
+
 
     <nav class="navbar specialNav">
 
@@ -107,7 +107,7 @@
   <!-- MAIN NAVBAR -->
 
   <nav class="navbar mainNav fixed-top">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="index.php">
       <img src="images/logo.png" alt="logo" id="logo">
     </a>
 
@@ -117,92 +117,54 @@
   </nav>
 
 
-  <div class="container contact mb-5">
+  <div class="container company">
 
-    <h1>Contact Us</h1>
+    <h1>Our Story</h1>
 
-    <p class="my-4 text-center">For more information on any of our products and to place an order or set up <br> an account, please call, email or complete the form below.</p>
+    <div class="row">
 
-    <div class="row justify-content-md-center">
-      <div class="col-md-10">
-
-        <div class="row contactInfo">
-
-          <div class="col-md-6 border-right text-right pt-2">
-            <p>Ngara Road</p>
-            <p>Nairobi, Kenya</p>
-          </div>
-
-          <div class="col-md-6 pt-2">
-
-            <p><strong>T:</strong> +254 7098765</p>
-            <p><strong>E:</strong> info@shoncoeng@gmail.com</p>
-            <p><strong>W:</strong> www.shoncoengineering.com</p>
-
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-
-
-    <div class="row justify-content-md-center">
       <div class="col-md-6">
-        <form class="needs-validation" id="" action="mail.php" method="post">
+        <div class="photoDiv pt-3">
 
-          <div class="form-group">
-            <label for="fullName">Full Name <span>*</span> </label>
-            <input type="text" class="form-control" id="fullName" name="fullName" required>
-          </div>
+          <div class="companyPhoto"></div>
 
+        </div>
+      </div>
 
-          <div class="form-group">
-            <label for="companyName">Company Name <span>*</span> </label>
-            <input type="text" class="form-control" id="companyName" name="companyName" required>
-          </div>
+      <div class="col-md-6">
 
-          <div class="row">
-            <div class="col-md-7">
-              <div class="form-group">
-                <label for="email"> Email <span>*</span> </label>
-                <input type="email" class="form-control" id="email" name="email" required>
-              </div>
-            </div>
-            <div class="col-md-5">
-              <div class="form-group">
-                <label for="phone"> Phone Number <span>*</span> </label>
-                <input type="text" class="form-control" id="phone" name="phone" required>
-              </div>
-            </div>
-          </div>
+        <h2>providing <br> <span>energy</span></h2>
 
-
-          <div class="form-group">
-            <label for="comments">Comments</label>
-            <textarea class="form-control" id="comments" rows="3" name="comments" required></textarea>
-          </div>
-
-
-          <!-- Notifications for 'error' Or 'successfully'-->
-          <div class="mailResponse" style="display:none;">
-            <div class="alert alert-dismissible" role="alert">
-              <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
-              <p class="mailResponseText"></p>
-            </div>
-          </div>
-
-          <button class="btn submitBtn mt-3" type="submit">SUBMIT</button>
-
-
-        </form>
       </div>
     </div>
+
+
+
+    <p class="mt-4">Established in 2010, we are a market leader in the supply of leading brand, electrical equipment and proprietary products for major international projects.
+      We have a global reach supplying customers in Africa and we are experts in the African markets.
+      Our expert team of consultants are on hand to provide you with a cost-effective, comprehensive and bespoke electrical procurement and shipping service. </p>
+    <p>
+      <strong>Many Years of Trading </strong><br>
+      The skills and experience gained over many years mean that we are perfectly positioned to provide expert advice and support to all of our customers.
+      During this time, we have supplied many different industries with a multitude of diverse products and services.
+      We have a proven track record, which speaks for itself and allows you to trust our stability and credibility within the electrical industry.
+    </p>
 
 
 
   </div>
 
+
+  <div class="container mt-5 content">
+    <h2>Our Vision and Mission</h2>
+
+    <p class="mt-4">To be the leading Medium Voltage Solutions provider in Africa.</p>
+  </div>
+
+
+
+
+  </div>
 
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
