@@ -73,7 +73,7 @@
             </li>
 
             <li>
-              <a href="service.phps">Services</a>
+              <a href="services.php">Services</a>
             </li>
 
             <li>

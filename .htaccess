@@ -1,7 +1,19 @@
 ReWriteEngine On
 
-ReWriteRule ^contact?$ /contact.php [L]
-ReWriteRule ^company?$ /company.php [L]
-ReWriteRule ^home?$ /index.php [L]
-ReWriteRule ^products?$ /products.php [L]
-ReWriteRule ^services?$ /services.php [L]
+DirectoryIndex index.php
+
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteCond %{REQUEST_FILENAME}\.php -f
+
+RewriteRule ^(.*)$ $1.php [NC,L]
+
+RewriteRule ^contact$ /contact.php [NC,L]
+
+RewriteRule ^company$ /company.php [NC,L]
+
+RewriteRule ^home$ /index.php [NC,L]
+
+RewriteRule ^products$ /products.php [NC,L]
+
+RewriteRule ^services$ /services.php [NC,L]

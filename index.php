@@ -63,7 +63,7 @@
               </ul> -->
             <!-- </li> -->
             <li>
-              <a href="#">Home</a>
+              <a href="index.php">Home</a>
             </li>
 
             <li>
@@ -116,7 +116,7 @@
   <!-- MAIN NAVBAR -->
 
   <nav class="navbar mainNav fixed-top">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="index.php">
       <img src="images/logo.png" alt="logo" id="logo">
     </a>
 
