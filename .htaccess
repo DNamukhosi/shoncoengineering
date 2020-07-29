@@ -1,0 +1,7 @@
+ReWriteEngine On
+
+ReWriteRule ^contact?$ /contact.php [L]
+ReWriteRule ^company?$ /company.php [L]
+ReWriteRule ^home?$ /index.php [L]
+ReWriteRule ^products?$ /products.php [L]
+ReWriteRule ^services?$ /services.php [L]
